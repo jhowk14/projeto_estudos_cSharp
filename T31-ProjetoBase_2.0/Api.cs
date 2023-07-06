@@ -16,13 +16,18 @@ namespace T31_ProjetoBase
         {
             string API;
             API = txtAPI.Text;
+            string token = txtToken.Text;
+
             try
             {
                 // Criar uma instância do HttpClient
                 using (HttpClient client = new HttpClient())
                 {
+                    // Adicionar o token ao cabeçalho Authorization
+                    client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
                     // Fazer uma chamada GET à API
-                    HttpResponseMessage response = await client.GetAsync($"{API}");
+                    HttpResponseMessage response = await client.GetAsync(API);
 
                     // Verificar se a chamada foi bem-sucedida
                     if (response.IsSuccessStatusCode)
@@ -42,5 +47,6 @@ namespace T31_ProjetoBase
                 MessageBox.Show("Ocorreu um erro ao fazer a chamada à API: " + ex.Message);
             }
         }
+
     }
 }

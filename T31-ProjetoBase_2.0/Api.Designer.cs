@@ -32,6 +32,8 @@
             lboAPI = new ListBox();
             txtAPI = new TextBox();
             label1 = new Label();
+            txtToken = new TextBox();
+            label2 = new Label();
             SuspendLayout();
             // 
             // btnAPI
@@ -55,7 +57,7 @@
             // 
             // txtAPI
             // 
-            txtAPI.Location = new Point(52, 52);
+            txtAPI.Location = new Point(52, 27);
             txtAPI.Name = "txtAPI";
             txtAPI.Size = new Size(249, 23);
             txtAPI.TabIndex = 3;
@@ -63,17 +65,35 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(72, 34);
+            label1.Location = new Point(72, 9);
             label1.Name = "label1";
             label1.Size = new Size(205, 15);
             label1.TabIndex = 4;
             label1.Text = "ESCREVA A SUA CHAMADA A API AQ";
+            // 
+            // txtToken
+            // 
+            txtToken.Location = new Point(52, 81);
+            txtToken.Name = "txtToken";
+            txtToken.Size = new Size(249, 23);
+            txtToken.TabIndex = 5;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(83, 57);
+            label2.Name = "label2";
+            label2.Size = new Size(192, 15);
+            label2.TabIndex = 6;
+            label2.Text = "TOKEN PARA ROTAS AUTORIZADAS";
             // 
             // Api
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(351, 500);
+            Controls.Add(label2);
+            Controls.Add(txtToken);
             Controls.Add(label1);
             Controls.Add(txtAPI);
             Controls.Add(lboAPI);
@@ -89,5 +109,7 @@
         private ListBox lboAPI;
         private TextBox txtAPI;
         private Label label1;
+        private TextBox txtToken;
+        private Label label2;
     }
 }

@@ -53,7 +53,7 @@
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
-            label11 = new Label();
+            lblCod = new Label();
             label12 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvPesquisa).BeginInit();
             SuspendLayout();
@@ -70,21 +70,21 @@
             txtCpf.Location = new Point(74, 89);
             txtCpf.Name = "txtCpf";
             txtCpf.Size = new Size(146, 23);
-            txtCpf.TabIndex = 0;
+            txtCpf.TabIndex = 1;
             // 
             // txtRg
             // 
             txtRg.Location = new Point(74, 118);
             txtRg.Name = "txtRg";
             txtRg.Size = new Size(146, 23);
-            txtRg.TabIndex = 0;
+            txtRg.TabIndex = 2;
             // 
             // txtCep
             // 
             txtCep.Location = new Point(74, 147);
             txtCep.Name = "txtCep";
             txtCep.Size = new Size(146, 23);
-            txtCep.TabIndex = 0;
+            txtCep.TabIndex = 3;
             // 
             // textBox6
             // 
@@ -92,49 +92,49 @@
             textBox6.Location = new Point(74, 233);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(371, 23);
-            textBox6.TabIndex = 0;
+            textBox6.TabIndex = 13;
             // 
             // txtRua
             // 
             txtRua.Location = new Point(74, 176);
             txtRua.Name = "txtRua";
             txtRua.Size = new Size(371, 23);
-            txtRua.TabIndex = 0;
+            txtRua.TabIndex = 4;
             // 
             // txtCidade
             // 
             txtCidade.Location = new Point(590, 60);
             txtCidade.Name = "txtCidade";
             txtCidade.Size = new Size(253, 23);
-            txtCidade.TabIndex = 0;
+            txtCidade.TabIndex = 5;
             // 
             // txtBairro
             // 
             txtBairro.Location = new Point(590, 89);
             txtBairro.Name = "txtBairro";
             txtBairro.Size = new Size(146, 23);
-            txtBairro.TabIndex = 0;
+            txtBairro.TabIndex = 6;
             // 
             // txtEstado
             // 
             txtEstado.Location = new Point(590, 118);
             txtEstado.Name = "txtEstado";
             txtEstado.Size = new Size(146, 23);
-            txtEstado.TabIndex = 0;
+            txtEstado.TabIndex = 7;
             // 
             // txtTelefone
             // 
             txtTelefone.Location = new Point(590, 147);
             txtTelefone.Name = "txtTelefone";
             txtTelefone.Size = new Size(146, 23);
-            txtTelefone.TabIndex = 0;
+            txtTelefone.TabIndex = 8;
             // 
             // btnAdicionar
             // 
             btnAdicionar.Location = new Point(590, 192);
             btnAdicionar.Name = "btnAdicionar";
             btnAdicionar.Size = new Size(82, 64);
-            btnAdicionar.TabIndex = 1;
+            btnAdicionar.TabIndex = 9;
             btnAdicionar.Text = "Adicionar";
             btnAdicionar.UseVisualStyleBackColor = true;
             // 
@@ -143,7 +143,7 @@
             btnExcluir.Location = new Point(766, 192);
             btnExcluir.Name = "btnExcluir";
             btnExcluir.Size = new Size(82, 64);
-            btnExcluir.TabIndex = 1;
+            btnExcluir.TabIndex = 11;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
             // 
@@ -152,7 +152,7 @@
             btnSalvar.Location = new Point(678, 192);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(82, 64);
-            btnSalvar.TabIndex = 1;
+            btnSalvar.TabIndex = 10;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
             // 
@@ -161,7 +161,7 @@
             btnCancelar.Location = new Point(854, 192);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(82, 64);
-            btnCancelar.TabIndex = 1;
+            btnCancelar.TabIndex = 12;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
             // 
@@ -264,14 +264,14 @@
             label10.TabIndex = 3;
             label10.Text = "Telefone:";
             // 
-            // label11
+            // lblCod
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(74, 26);
-            label11.Name = "label11";
-            label11.Size = new Size(28, 15);
-            label11.TabIndex = 3;
-            label11.Text = "XXX";
+            lblCod.AutoSize = true;
+            lblCod.Location = new Point(74, 26);
+            lblCod.Name = "lblCod";
+            lblCod.Size = new Size(28, 15);
+            lblCod.TabIndex = 3;
+            lblCod.Text = "XXX";
             // 
             // label12
             // 
@@ -297,7 +297,7 @@
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(label11);
+            Controls.Add(lblCod);
             Controls.Add(label1);
             Controls.Add(dgvPesquisa);
             Controls.Add(btnSalvar);
@@ -315,6 +315,7 @@
             Controls.Add(txtCidade);
             Controls.Add(txtNome);
             Name = "frmBco31";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmBco31";
             ((System.ComponentModel.ISupportInitialize)dgvPesquisa).EndInit();
             ResumeLayout(false);
@@ -348,7 +349,7 @@
         private Label label8;
         private Label label9;
         private Label label10;
-        private Label label11;
+        private Label lblCod;
         private Label label12;
     }
 }

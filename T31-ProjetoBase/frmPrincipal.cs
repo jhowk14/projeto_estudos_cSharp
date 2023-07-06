@@ -113,9 +113,15 @@ namespace T31_ProjetoBase
             frm.ShowDialog();
         }
 
-        private void ntwExemplo2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmBco31 frm = new frmBco31();
+            frm.ShowDialog();
+        }
+
+        private void fornecedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBco4 frm = new frmBco4();
             frm.ShowDialog();
         }
     }

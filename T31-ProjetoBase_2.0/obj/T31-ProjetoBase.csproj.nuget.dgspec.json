@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase\\T31-ProjetoBase.csproj": {}
+    "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase_2.0\\T31-ProjetoBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase\\T31-ProjetoBase.csproj": {
+    "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase_2.0\\T31-ProjetoBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase\\T31-ProjetoBase.csproj",
+        "projectUniqueName": "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase_2.0\\T31-ProjetoBase.csproj",
         "projectName": "T31-ProjetoBase",
-        "projectPath": "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase\\T31-ProjetoBase.csproj",
+        "projectPath": "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase_2.0\\T31-ProjetoBase.csproj",
         "packagesPath": "C:\\Users\\jonathan.hplourenco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase\\obj\\",
+        "outputPath": "C:\\Users\\jonathan.hplourenco\\source\\repos\\T31-ProjetoBase_2.0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
